@@ -46,7 +46,6 @@ struct CardView: View {
         }
     }
     
-    //MARK: - Drawing Constants
 
     func fontSize(for size: CGSize) -> CGFloat {
         min(size.width, size.height) * 0.7
